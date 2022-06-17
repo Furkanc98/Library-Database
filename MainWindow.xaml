@@ -1,0 +1,25 @@
+﻿<Window x:Class="phar2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:phar2"
+        mc:Ignorable="d"
+        Title="MainPage" Height="450" Width="548" Background="Black" Margin="0,0,0,0" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,2,0">
+        <Label Content="LIBRARY MANAGEMENT SYSTEM" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,21,0,0" Width="493" FontFamily="Times New Roman" FontSize="30" Height="50" Background="Black" Foreground="#FFF3E9E9"></Label>
+        <Button Name="btnBooks" Margin="0,183,392,138" Background="White" Click="btnBooks_Click">
+            <Image Source="/book.png" Height="103" Width="144"></Image>
+        </Button>
+        <Button Name="btnWriters" Margin="175,183,181,138" Background="White" Click="btnWriters_Click">
+            <Image Source="/2.jpg" Height="103" Width="169"></Image>
+        </Button>
+        <Button Name="btnCate" Margin="390,183,0,140" Background="White" Click="btnCate_Click">
+            <Image Source="/cat.png" Height="85" Width="115"></Image>
+        </Button>
+        <Button  Name="btnExit" Margin="175,317,181,22" Background="White" Click="btnExit_Click">
+            <Image Source="/3.jpg" Height="85" Width="137"></Image>
+        </Button>
+
+    </Grid>
+</Window>
